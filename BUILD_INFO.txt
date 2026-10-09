@@ -1,0 +1,7 @@
+SFO starter ZIP generated.
+Countries: 50
+Regions: 773
+Continent split: Vardessia 17, Kaelthara 17, Ormethys 16
+Region count range per country: 14-17
+Contains starter Luau modules, docs and fictional world JSON.
+Does NOT contain a finished Roblox place file, 3D assets, finished UI, full campaign, or persistent production-ready data services.
