@@ -1,0 +1,10 @@
+{
+  "name": "diablo-sfo-orchestrator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Orchestrateur initial de développement pour SFO",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

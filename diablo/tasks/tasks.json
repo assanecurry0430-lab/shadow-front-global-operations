@@ -1,0 +1,11 @@
+[
+  {
+    "id": "9d3585f1-fbf3-4406-8564-abe9646c3db4",
+    "title": "Analyser les données du monde SFO",
+    "description": "Vérifier la structure de data/world.json, le nombre de pays, les continents et les régions, puis produire un rapport sans modifier les données.",
+    "status": "approved",
+    "approvalRequired": true,
+    "createdAt": "2026-10-10T00:19:21.023Z",
+    "approvedAt": "2026-10-10T00:28:25.211Z"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-10T00:22:38.352927+00:00",
+  "project": "SHADOW FRONT: GLOBAL OPERATIONS",
+  "world_file": "data/world.json",
+  "countries_expected": 50,
+  "countries_found": 50,
+  "continents": {
+    "Vardessia": 17,
+    "Kaelthara": 17,
+    "Ormethys": 16
+  },
+  "regions_declared": 773,
+  "regions_calculated": 773,
+  "errors": [],
+  "warnings": [],
+  "status": "PASS"
+}
