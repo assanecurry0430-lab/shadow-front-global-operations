@@ -1,0 +1,30 @@
+{
+  "project": {
+    "name": "SHADOW FRONT: GLOBAL OPERATIONS",
+    "abbreviation": "SFO",
+    "orchestrator": "Diablo"
+  },
+  "engine": {
+    "target": "Roblox Studio",
+    "excludedTargets": [
+      "Unreal Engine 5"
+    ],
+    "integrationPhase": "later"
+  },
+  "delivery": {
+    "archiveName": "SFO_FINAL.zip",
+    "requireValidationBeforeRelease": true
+  },
+  "aiCoordination": {
+    "enabled": false,
+    "communicationSystem": "planned",
+    "sharedMemory": "planned",
+    "taskRouting": "planned",
+    "resultVerification": "planned"
+  },
+  "safety": {
+    "humanApprovalForImportantChanges": true,
+    "automaticDeployment": false,
+    "protectExistingProjectFiles": true
+  }
+}

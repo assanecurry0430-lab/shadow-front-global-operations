@@ -3,9 +3,66 @@
     "id": "9d3585f1-fbf3-4406-8564-abe9646c3db4",
     "title": "Analyser les données du monde SFO",
     "description": "Vérifier la structure de data/world.json, le nombre de pays, les continents et les régions, puis produire un rapport sans modifier les données.",
-    "status": "approved",
+    "status": "completed",
     "approvalRequired": true,
     "createdAt": "2026-10-10T00:19:21.023Z",
-    "approvedAt": "2026-10-10T00:28:25.211Z"
+    "approvedAt": "2026-10-10T00:28:25.211Z",
+    "startedAt": "2026-10-10T00:58:37.810Z",
+    "completedAt": "2026-10-10T00:58:37.852Z",
+    "executionResult": "success"
+  },
+  {
+    "id": "69ab3fdd-7bf4-4a33-8367-26dcf9cf8165",
+    "title": "TEST - Approbation centralisée",
+    "description": "Tâche temporaire destinée à vérifier le module d'approbation.",
+    "status": "approved",
+    "approvalRequired": true,
+    "createdAt": "2026-10-10T02:08:21.715Z",
+    "approvedAt": "2026-10-10T02:08:21.764Z"
+  },
+  {
+    "id": "1666df4c-a4ad-43a5-a5da-e5aa4ea1eb45",
+    "title": "TEST - Refus centralisé",
+    "description": "Tâche temporaire pour vérifier le refus humain.",
+    "status": "rejected",
+    "approvalRequired": true,
+    "createdAt": "2026-10-10T02:10:55.549Z",
+    "rejectedAt": "2026-10-10T02:10:55.589Z"
+  },
+  {
+    "id": "7e98520d-7f9f-4fa0-9dd8-c915bce608b6",
+    "title": "TEST - Vérification du tableau de bord sécurisé",
+    "description": "Tâche temporaire pour vérifier l'affichage et l'approbation humaine. Aucune exécution réelle autorisée.",
+    "status": "approved",
+    "approvalRequired": true,
+    "createdAt": "2026-10-10T14:29:03.514Z",
+    "approvedAt": "2026-10-10T14:30:24.645Z"
+  },
+  {
+    "id": "99fecbd5-1e01-4f24-988b-11fff110b4ff",
+    "title": "TEST SECURITE - Approbation autorisée",
+    "description": "Tâche temporaire pour vérifier la clé d'autorisation et la décision humaine. Ne rien exécuter.",
+    "status": "approved",
+    "approvalRequired": true,
+    "createdAt": "2026-10-10T14:34:38.517Z",
+    "approvedAt": "2026-10-10T14:38:00.534Z"
+  },
+  {
+    "id": "197f9e26-f706-4dc6-b341-686e3b91fce5",
+    "title": "TEST DIABLO - Approbation",
+    "description": "Tâche temporaire pour vérifier l'approbation humaine.",
+    "status": "approved",
+    "approvalRequired": true,
+    "createdAt": "2026-10-13T03:29:09.160Z",
+    "approvedAt": "2026-10-13T03:29:09.201Z"
+  },
+  {
+    "id": "a9dfc408-1c69-4668-9ebc-2929cc8c0e2f",
+    "title": "TEST DIABLO - Refus",
+    "description": "Tâche temporaire pour vérifier le refus humain.",
+    "status": "rejected",
+    "approvalRequired": true,
+    "createdAt": "2026-10-13T03:29:09.242Z",
+    "rejectedAt": "2026-10-13T03:29:09.261Z"
   }
 ]

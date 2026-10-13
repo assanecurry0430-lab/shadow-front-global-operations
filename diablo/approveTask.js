@@ -17,7 +17,7 @@ async function ensureTasksFile() {
   }
 }
 
-export async function approveTask(taskId) {
+async function updateTaskStatus(taskId, action) {
   if (typeof taskId !== "string" || !taskId.trim()) {
     throw new Error("Un identifiant de tâche est obligatoire.");
   }
@@ -33,20 +33,37 @@ export async function approveTask(taskId) {
 
   if (tasks[index].status !== "pending") {
     throw new Error(
-      `La tâche ne peut pas être approuvée : statut actuel ${tasks[index].status}.`
+      `La tâche ne peut pas être ${action === "approve" ? "approuvée" : "refusée"} : statut actuel ${tasks[index].status}.`
     );
   }
 
-  tasks[index] = {
-    ...tasks[index],
-    status: "approved",
-    approvedAt: new Date().toISOString(),
-    approvalRequired: true
-  };
+  const timestamp = new Date().toISOString();
+
+  tasks[index] = action === "approve"
+    ? {
+        ...tasks[index],
+        status: "approved",
+        approvedAt: timestamp,
+        approvalRequired: true
+      }
+    : {
+        ...tasks[index],
+        status: "rejected",
+        rejectedAt: timestamp,
+        approvalRequired: true
+      };
 
   await writeFile(tasksFile, JSON.stringify(tasks, null, 2) + "\n", "utf8");
 
   return tasks[index];
+}
+
+export async function approveTask(taskId) {
+  return updateTaskStatus(taskId, "approve");
+}
+
+export async function rejectTask(taskId) {
+  return updateTaskStatus(taskId, "reject");
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

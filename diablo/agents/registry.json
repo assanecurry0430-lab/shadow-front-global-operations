@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "project": "SHADOW FRONT: GLOBAL OPERATIONS",
+  "coordinator": "Diablo",
+  "agents": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "role": "Conception, analyse, documentation et assistance au développement",
+      "status": "planned",
+      "connection": "not_configured",
+      "verified": false
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "role": "Analyse du code, conception et aide au développement",
+      "status": "planned",
+      "connection": "not_configured",
+      "verified": false
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "role": "Édition du code et assistance au développement",
+      "status": "planned",
+      "connection": "not_configured",
+      "verified": false
+    },
+    {
+      "id": "github_copilot",
+      "name": "GitHub Copilot",
+      "role": "Assistance à la programmation et à la correction du code",
+      "status": "planned",
+      "connection": "not_configured",
+      "verified": false
+    },
+    {
+      "id": "blender_ai",
+      "name": "Blender et outils IA associés",
+      "role": "Préparation éventuelle des ressources 3D compatibles avec le projet",
+      "status": "planned",
+      "connection": "not_configured",
+      "verified": false
+    }
+  ],
+  "rules": {
+    "humanApprovalForImportantChanges": true,
+    "unverifiedAgentsMayNotBeMarkedConnected": true,
+    "robloxStudioIntegration": "later",
+    "unrealEngine5": "excluded"
+  }
+}

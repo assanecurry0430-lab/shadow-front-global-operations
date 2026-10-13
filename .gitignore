@@ -12,3 +12,11 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# Diablo : secrets, sauvegardes et données d'exécution locales
+diablo/config/local-auth.key
+diablo-backup-*/
+diablo/*.bak*
+diablo/**/*.bak*
+diablo/logs/*.log
+diablo/communication/messages.jsonl
